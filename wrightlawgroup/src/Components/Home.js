@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom';
 import { Jumbotron, Carousel, Container, Row, Col, Image, Button } from 'react-bootstrap';
 import './Home.css';
 
-export default class Home extends Component {
-  render() {
+const Home = () => {
+  
     return (
       <Container>
         <Jumbotron>
@@ -17,4 +17,5 @@ export default class Home extends Component {
       </Container>
     )
   }
-}
+
+  export default Home;

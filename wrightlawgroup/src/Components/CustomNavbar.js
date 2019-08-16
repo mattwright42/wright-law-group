@@ -1,19 +1,19 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Navbar, Nav, NavItem } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
-export default class CustomNavbar extends Component{
-  render() {
+const CustomNavbar = () => {
+  
     return (
-      <Navbar default collapseOnSelect>
-        <Navbar.Header>
+      <Navbar bg="dark" variant="dark" default collapseOnSelect>
+        
           <Navbar.Brand>
             <Link to="/">Wright Law Group</Link>
           </Navbar.Brand>
           <Navbar.Toggle />
-        </Navbar.Header>
+        
         <Navbar.Collapse>
-          <Nav pullRight>
+          <Nav pullRight color="white">
             <NavItem eventkey={1} componentClass={Link} href="/" to="/">
               Home
             </NavItem>
@@ -30,4 +30,5 @@ export default class CustomNavbar extends Component{
       
     )
   }
-}
+
+  export default CustomNavbar;
