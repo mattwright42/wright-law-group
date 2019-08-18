@@ -1,15 +1,15 @@
 import React from 'react';
 import { Container, Row, Col, Image } from 'react-bootstrap';
 
-import './News.css';
+import './Blog.css';
 
-const News = () => {
+const Blog = () => {
   
     return (
       <div>
         <Image src="" className="header-image" />
         <Container>
-          <h2>News</h2>
+          <h2>Blog</h2>
           <Row>
             <Col xs={12} sm={8} className="main-section">
               <p>I spend a lot of time walking around in the woods and talking to tress, and squirrels.</p>
@@ -24,4 +24,4 @@ const News = () => {
     )
   }
 
-  export default News;
+  export default Blog;

@@ -1,35 +1,33 @@
 import React from 'react';
 import { Navbar, Nav, NavItem } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-
-import './CustomNavbar.css';
+import wlglogo from '../Assets/wright-law-group-logo.jpg';
 
 const CustomNavbar = () => {
-  
     return (
-      <Navbar  default collapseOnSelect>
-        
-          <Navbar.Brand>
+        <Navbar expand="lg" >
+          <Navbar.Brand href="/">
+            <img src={wlglogo} width="30" height="30" class="d-inline-block align-top" alt="Wright Law Group Logo"/>
             <Link to="/">Wright Law Group</Link>
           </Navbar.Brand>
-          <Navbar.Toggle />
-        
-        <Navbar.Collapse>
-          <Nav pullRight>
-            <Nav.Link eventkey={1} componentClass={Link} href="/" to="/">
-              Home
-            </Nav.Link>
-            <Nav.Link eventkey={2} componentClass={Link} href="/about" to="/about">
-              About
-            </Nav.Link>
-            <Nav.Link eventkey={3} componentClass={Link} href="/news" to="/news">
-              News
-            </Nav.Link>
-          </Nav>
-        </Navbar.Collapse>
-      </Navbar>
-    
-      
+          <Navbar.Toggle aria-controls="basic-navbar-nav"/>
+          <Navbar.Collapse>
+            <Nav className="mr-auto">
+              <Nav.Link componentClass={Link} href="/" to="/">
+                Home
+              </Nav.Link>
+              <Nav.Link componentClass={Link} href="/about" to="/about">
+                About
+              </Nav.Link>
+              <Nav.Link componentClass={Link} href="/blog" to="/blog">
+                Blog
+              </Nav.Link>
+              <Nav.Link componentClass={Link} href="/contact" to="/contact">
+                Contact Us
+              </Nav.Link>
+            </Nav>
+          </Navbar.Collapse>
+        </Navbar>    
     )
   }
 
