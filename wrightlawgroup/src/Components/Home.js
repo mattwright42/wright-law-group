@@ -1,12 +1,87 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { Jumbotron, Carousel, Container, Row, Col, Image, Button } from 'react-bootstrap';
+import img1 from '../Assets/CarouselImages/img1.jpg';
+import img2 from '../Assets/CarouselImages/img2.jpg';
+import img3 from '../Assets/CarouselImages/img3.jpg';
+import img4 from '../Assets/CarouselImages/img4.jpg';
+import img5 from '../Assets/CarouselImages/img5.jpg';
+import img6 from '../Assets/CarouselImages/img6.jpg';
+import img7 from '../Assets/CarouselImages/img7.jpg';
+import img8 from '../Assets/CarouselImages/img8.jpg';
+import img9 from '../Assets/CarouselImages/img9.jpg';
+
 import './Home.css';
 
 const Home = () => {
   
     return (
       <Container>
+        <Carousel>
+          <Carousel.Item>
+            <img
+              className="d-block w-100"
+              src={img1}
+              alt="First slide"
+              />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-100"
+              src={img2}
+              alt="First slide"
+              />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-100"
+              src={img3}
+              alt="First slide"
+              />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-100"
+              src={img4}
+              alt="First slide"
+              />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-100"
+              src={img5}
+              alt="First slide"
+              />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-100"
+              src={img6}
+              alt="First slide"
+              />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-100"
+              src={img7}
+              alt="First slide"
+              />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-100"
+              src={img8}
+              alt="First slide"
+              />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-100"
+              src={img9}
+              alt="First slide"
+              />
+          </Carousel.Item>
+        </Carousel>
         <Jumbotron>
           <h2>Welcome to Wright Law Group!</h2>
           <p>This website is being built with React, React-Router, and React-Bootstrap</p>
