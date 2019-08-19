@@ -21,9 +21,10 @@ function App() {
         <Route path="/about" component={About}/>
         <Route path="/blog" component={Blog}/>
         <Route path="/contact" component={Contact}/>
-        <Route path="/contact" component={Disclaimer}/>
-        <Route path="/contact" component={PrivacyPolicy}/>
+        <Route path="/disclaimer" component={Disclaimer}/>
+        <Route path="/privacy-policy" component={PrivacyPolicy}/>
         <CustomFooterNavbar />
+        
       </div>
     </Router>
   );
