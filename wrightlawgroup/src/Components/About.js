@@ -11,7 +11,7 @@ const About = () => {
         <Container>
           <Col xs={12} sm={8} smOffset={2}>
             <Image src="" className="about-profile-pic" rounded/>
-            <h3>Frank the Tank</h3>
+            <h3>About</h3>
             <p>That's a crooked tree.</p>
           </Col>
         </Container>

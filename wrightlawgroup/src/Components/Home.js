@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 import { Jumbotron, Carousel, Container, Row, Col, Image, Button } from 'react-bootstrap';
 import img1 from '../Assets/CarouselImages/img1.jpg';
