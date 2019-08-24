@@ -20,7 +20,7 @@ const CustomNavbar = () => {
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse>
-        <Nav className="mr-auto">
+        <Nav className="ml-auto mr-0">
           <Nav.Link componentClass={Link} href="/" to="/">
             Home
           </Nav.Link>
