@@ -14,6 +14,7 @@ const CustomFooterNavbar = () => {
           <Nav.Link componentClass={Link} href="/" to="/">
             Home
           </Nav.Link>
+          ||
           <Nav.Link componentClass={Link} href="/disclaimer" to="/disclaimer">
             Disclaimer
           </Nav.Link>{' '}
@@ -24,7 +25,8 @@ const CustomFooterNavbar = () => {
             to="/privacy-policy"
           >
             Privacy Policy
-          </Nav.Link>
+          </Nav.Link>{' '}
+          <br />
           <Nav.Link
             componentClass={Link}
             href="https://www.matthewbwright.dev/"

@@ -11,8 +11,8 @@ const CustomNavbar = () => {
       <Navbar.Brand href="/">
         <img
           src={wlglogo}
-          width="30"
-          height="30"
+          width="80"
+          height="80"
           class="d-inline-block align-top"
           alt="Wright Law Group Logo"
         />

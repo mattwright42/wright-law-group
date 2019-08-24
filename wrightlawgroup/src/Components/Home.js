@@ -23,7 +23,7 @@ import './Home.css';
 
 const Home = () => {
   return (
-    <Container>
+    <Container className="mw-100 p-0">
       <Carousel className="w-100 h-50">
         <Carousel.Item>
           <img className="d-block w-100 h-50" src={img1} alt="First slide" />
