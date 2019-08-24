@@ -12,7 +12,7 @@ import './PrivacyPolicy.css';
 
 const PrivacyPolicy = () => {
   return (
-    <div>
+    <Container>
       <h2>PRIVACY POLICY</h2>
       <p>
         This privacy notice discloses the privacy practices for
@@ -103,7 +103,7 @@ const PrivacyPolicy = () => {
         contact us immediately via telephone at 480.270.4926 or
         info@wrightlawgroup.com.
       </p>
-    </div>
+    </Container>
   );
 };
 

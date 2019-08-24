@@ -3,32 +3,40 @@ import { Navbar, Nav } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import wlglogo from '../Assets/wright-law-group-logo.jpg';
 
-const CustomNavbar = () => {
-    return (
-        <Navbar expand="lg" >
-          <Navbar.Brand href="/">
-            <img src={wlglogo} width="30" height="30" class="d-inline-block align-top" alt="Wright Law Group Logo"/>
-            <Link to="/">Wright Law Group</Link>
-          </Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav"/>
-          <Navbar.Collapse>
-            <Nav className="mr-auto">
-              <Nav.Link componentClass={Link} href="/" to="/">
-                Home
-              </Nav.Link>
-              <Nav.Link componentClass={Link} href="/about" to="/about">
-                About
-              </Nav.Link>
-              <Nav.Link componentClass={Link} href="/blog" to="/blog">
-                Blog
-              </Nav.Link>
-              <Nav.Link componentClass={Link} href="/contact" to="/contact">
-                Contact Us
-              </Nav.Link>
-            </Nav>
-          </Navbar.Collapse>
-        </Navbar>    
-    )
-  }
+import './CustomNavbar.css';
 
-  export default CustomNavbar;
+const CustomNavbar = () => {
+  return (
+    <Navbar expand="lg">
+      <Navbar.Brand href="/">
+        <img
+          src={wlglogo}
+          width="30"
+          height="30"
+          class="d-inline-block align-top"
+          alt="Wright Law Group Logo"
+        />
+        <Link to="/">Wright Law Group</Link>
+      </Navbar.Brand>
+      <Navbar.Toggle aria-controls="basic-navbar-nav" />
+      <Navbar.Collapse>
+        <Nav className="mr-auto">
+          <Nav.Link componentClass={Link} href="/" to="/">
+            Home
+          </Nav.Link>
+          <Nav.Link componentClass={Link} href="/about" to="/about">
+            About
+          </Nav.Link>
+          <Nav.Link componentClass={Link} href="/blog" to="/blog">
+            Blog
+          </Nav.Link>
+          <Nav.Link componentClass={Link} href="/contact" to="/contact">
+            Contact Us
+          </Nav.Link>
+        </Nav>
+      </Navbar.Collapse>
+    </Navbar>
+  );
+};
+
+export default CustomNavbar;
