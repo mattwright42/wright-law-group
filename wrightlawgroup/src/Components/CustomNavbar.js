@@ -21,16 +21,16 @@ const CustomNavbar = () => {
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse>
         <Nav className="ml-auto mr-0">
-          <Nav.Link componentClass={Link} href="/" to="/">
+          <Nav.Link className="a" href="/" to="/">
             Home
           </Nav.Link>
-          <Nav.Link componentClass={Link} href="/about" to="/about">
+          <Nav.Link href="/about" to="/about">
             About
           </Nav.Link>
-          <Nav.Link componentClass={Link} href="/blog" to="/blog">
+          <Nav.Link href="/blog" to="/blog">
             Blog
           </Nav.Link>
-          <Nav.Link componentClass={Link} href="/contact" to="/contact">
+          <Nav.Link href="/contact" to="/contact">
             Contact Us
           </Nav.Link>
         </Nav>

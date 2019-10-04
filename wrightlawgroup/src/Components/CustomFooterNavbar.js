@@ -22,27 +22,19 @@ const CustomFooterNavbar = () => {
             <Row>
               <Col>
                 <span>
-                  <Nav.Link componentClass={Link} href="/" to="/">
+                  <Nav.Link href="/" to="/">
                     Home
                   </Nav.Link>
                 </span>
                 <span>||</span>
                 <span>
-                  <Nav.Link
-                    componentClass={Link}
-                    href="/disclaimer"
-                    to="/disclaimer"
-                  >
+                  <Nav.Link href="/disclaimer" to="/disclaimer">
                     Disclaimer
                   </Nav.Link>
                 </span>
                 <span>||</span>
                 <span>
-                  <Nav.Link
-                    componentClass={Link}
-                    href="/privacy-policy"
-                    to="/privacy-policy"
-                  >
+                  <Nav.Link href="/privacy-policy" to="/privacy-policy">
                     Privacy Policy
                   </Nav.Link>
                 </span>
@@ -52,7 +44,6 @@ const CustomFooterNavbar = () => {
               <Col>
                 <span className="align-middle">
                   <Nav.Link
-                    componentClass={Link}
                     href="https://www.matthewbwright.dev/"
                     to="matthewbwright.dev"
                   >
