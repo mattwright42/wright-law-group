@@ -60,22 +60,22 @@ const Home = () => {
           React-Bootstrap
         </p>
         <Link to="/about">
-          <Button bsStyle="primary">About</Button>
+          <Button bsstyle="primary">About</Button>
         </Link>
       </Jumbotron>
       <Row className="show-grid text-center">
         <Col xs={12} sm={4} className="person-wrapper">
-          <Image src="" circle className="profile-pic" />
+          <Image src="" roundedCircle className="profile-pic" />
           <h3>Frank</h3>
           <p>That's a crooked tree.</p>
         </Col>
         <Col xs={12} sm={4} className="person-wrapper">
-          <Image src="" circle className="profile-pic" />
+          <Image src="" roundedCircle className="profile-pic" />
           <h3>Frank</h3>
           <p>That's a crooked tree.</p>
         </Col>
         <Col xs={12} sm={4} className="person-wrapper">
-          <Image src="" circle className="profile-pic" />
+          <Image src="" roundedCircle className="profile-pic" />
           <h3>Frank</h3>
           <p>That's a crooked tree.</p>
         </Col>

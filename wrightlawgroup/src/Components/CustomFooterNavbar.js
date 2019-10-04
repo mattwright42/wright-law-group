@@ -13,7 +13,7 @@ const CustomFooterNavbar = () => {
           <Nav className="mx-auto">
             <Row>
               <Col>
-                <span class="align-middle">
+                <span className="align-middle">
                   &copy; 2019 Wright Law Group, PLLC
                 </span>
               </Col>
