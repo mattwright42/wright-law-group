@@ -7,7 +7,8 @@ import './CustomFooterNavbar.css';
 const footerStyle = {
   backgroundColor: '#005f80',
   color: 'white',
-  textAlign: 'center'
+  textAlign: 'center',
+  padding: '5px'
 };
 
 const CustomFooterNavbar = () => {
@@ -22,12 +23,12 @@ const CustomFooterNavbar = () => {
         <Col>
             <a href="/" to="/" style={footerStyle}>
               Home
-            </a>
-          ||
+            </a>&nbsp;
+          ||&nbsp;
             <a href="/disclaimer" to="/disclaimer" style={footerStyle}>
               Disclaimer
-            </a>
-          ||
+            </a>&nbsp;
+          ||&nbsp;
             <a href="/privacy-policy" to="/privacy-policy" style={footerStyle}>
               Privacy Policy
             </a>
@@ -35,13 +36,16 @@ const CustomFooterNavbar = () => {
       </Row>
       <Row>
         <Col>
-          <span className="align-middle">
-            <Nav.Link
+          <span className="align-middle" style={footerStyle}>
+            Website design by <a href="https://www.matthewbwright.dev/">
+              Matthew Wright
+            </a>
+            {/* <Nav.Link
               href="https://www.matthewbwright.dev/"
               to="matthewbwright.dev"
               style={footerStyle}>
               Website design by Matthew Wright
-            </Nav.Link>
+            </Nav.Link> */}
           </span>
         </Col>
       </Row>
