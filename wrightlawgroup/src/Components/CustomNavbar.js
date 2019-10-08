@@ -15,13 +15,11 @@ const CustomNavbar = () => {
           height="80"
           className="d-inline-block align-top"
           alt="Wright Law Group Logo"
-        /> 
-        
-        
+        />
       </Navbar.Brand>
-      <div>
-          Wright Law Group, PLLC
-        </div>
+      <div className="business">
+        Wright Law Group, PLLC
+      </div>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse>
         <Nav className="ml-auto mr-0">
