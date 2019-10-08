@@ -7,37 +7,33 @@ import './CustomFooterNavbar.css';
 const CustomFooterNavbar = () => {
   return (
     <Container className="mw-100 p-0">
-      <Navbar expand="lg">
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse>
-          <Nav className="mx-auto">
             <Row>
-              <Col>
-                <span className="align-middle">
+              <Col md="12">
+                
                   &copy; 2019 Wright Law Group, PLLC
-                </span>
+                
               </Col>
             </Row>
 
             <Row>
               <Col>
-                <span>
-                  <Nav.Link href="/" to="/">
+                
+                  <a href="/" to="/">
                     Home
-                  </Nav.Link>
-                </span>
-                <span>||</span>
-                <span>
-                  <Nav.Link href="/disclaimer" to="/disclaimer">
+                  </a>
+                
+                ||
+                
+                  <a href="/disclaimer" to="/disclaimer">
                     Disclaimer
-                  </Nav.Link>
-                </span>
-                <span>||</span>
-                <span>
-                  <Nav.Link href="/privacy-policy" to="/privacy-policy">
+                  </a>
+                
+                ||
+                
+                  <a href="/privacy-policy" to="/privacy-policy">
                     Privacy Policy
-                  </Nav.Link>
-                </span>
+                  </a>
+                
               </Col>
             </Row>
             <Row>
@@ -52,9 +48,6 @@ const CustomFooterNavbar = () => {
                 </span>
               </Col>
             </Row>
-          </Nav>
-        </Navbar.Collapse>
-      </Navbar>
     </Container>
   );
 };
