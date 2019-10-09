@@ -29,28 +29,28 @@ const Home = () => {
           <img className="d-block w-100 h-50" src={img1} alt="First slide" />
         </Carousel.Item>
         <Carousel.Item>
-          <img className="d-block w-100 h-50" src={img2} alt="First slide" />
+          <img className="d-block w-100 h-50" src={img2} alt="Second slide" />
         </Carousel.Item>
         <Carousel.Item>
-          <img className="d-block w-100 h-50" src={img3} alt="First slide" />
+          <img className="d-block w-100 h-50" src={img3} alt="Third slide" />
         </Carousel.Item>
         <Carousel.Item>
-          <img className="d-block w-100 h-50" src={img4} alt="First slide" />
+          <img className="d-block w-100 h-50" src={img4} alt="Fourth slide" />
         </Carousel.Item>
         <Carousel.Item>
-          <img className="d-block w-100 h-50" src={img5} alt="First slide" />
+          <img className="d-block w-100 h-50" src={img5} alt="Fifth slide" />
         </Carousel.Item>
         <Carousel.Item>
-          <img className="d-block w-100 h-50" src={img6} alt="First slide" />
+          <img className="d-block w-100 h-50" src={img6} alt="Sixth slide" />
         </Carousel.Item>
         <Carousel.Item>
-          <img className="d-block w-100 h-50" src={img7} alt="First slide" />
+          <img className="d-block w-100 h-50" src={img7} alt="Seventh slide" />
         </Carousel.Item>
         <Carousel.Item>
-          <img className="d-block w-100 h-50" src={img8} alt="First slide" />
+          <img className="d-block w-100 h-50" src={img8} alt="Eighth slide" />
         </Carousel.Item>
         <Carousel.Item>
-          <img className="d-block w-100 h-50" src={img9} alt="First slide" />
+          <img className="d-block w-100 h-50" src={img9} alt="Ninth slide" />
         </Carousel.Item>
       </Carousel>
       <Jumbotron>
